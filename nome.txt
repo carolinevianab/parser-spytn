@@ -1,0 +1,12 @@
+main(){
+  var nome:string = ""
+  var sobrenome:string = ""
+
+  print("Digite seu nome:")
+  input(nome)
+
+  print("Digite seu sobrenome:")
+  input(sobrenome)
+
+  print("Olá, ", nome, " ", sobrenome)
+}

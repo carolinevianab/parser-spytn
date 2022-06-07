@@ -1,0 +1,23 @@
+main(){
+  var amor:int = -13
+  var baixinho:int = 2
+  var bota:int = 3
+  var vida:int = 0
+  vida = bota + amor / baixinho
+
+  if vida > bota {
+    vida = bota + amor
+  }
+  else {
+    vida = bota - amor
+  }
+
+  while vida > amor {
+    vida = bota - amor
+    break
+  }
+
+  print("Fim do programa com vida valendo", vida,bota)
+  input(amor)
+
+}

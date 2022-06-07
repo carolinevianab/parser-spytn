@@ -1,0 +1,15 @@
+main(){
+  var num1:int = 0
+  var num2:int = 0
+  var soma:int = 0
+
+  print("Digite um valor")
+  input(num1)
+
+  print("Digite um outro valor")
+  input(num2)
+
+  soma = num1 + num2
+
+  print("A soma é", soma)
+}
